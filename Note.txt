@@ -1,0 +1,10 @@
+This is the note of coding programs in the paper "Asymptotics in Online Gradient Estimation".
+
+The concrete example is the M\M\1 queue, and the quantity we are interested in is the gradient of average system time of first 10 customers with respect to arrival rate and service rate(multi-dimensional case).
+
+The files "Cal_MSE_single" and "Cal_MSE_multi" are used to calculate the mean squared error of all the three algorithms. Change the parameter such as K, d and click "run", then you will get the results.
+
+"Algorithm1" is implementation of offline algorithm.
+"Algorithm2" is implementation of online algorithm that is proposed in previous draft.
+"Algorithm2_new" is implementation of online algorithm that is proposed in most recent draft.
+
